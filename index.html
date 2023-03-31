@@ -1,13 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
+
   <body>
-    <h4>Bonjour git reproche de premier commite</h4>
-    <p>today dans index</p>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        ></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page"
+                >Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <!--  -->
+      <div class="btn-group dropup mt-4">
+        <button type="button" class="btn btn-secondary">Split dropup</button>
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item disabled" href="#">Disabled action</a>
+          <h6 class="dropdown-header">Section header</h6>
+          <a class="dropdown-item" href="#">Action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">After divider action</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <!--  -->
+
+      <form>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail3"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label"
+            >Password</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword3"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="gridRadios1">
+                  First radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="gridRadios2">
+                  Second radio
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gridRadios"
+                  id="gridRadios3"
+                  value="option3"
+                  disabled
+                />
+                <label class="form-check-label" for="gridRadios3">
+                  Third disabled radio
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-group row">
+          <div class="col-sm-2">Checkbox</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1" />
+              <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </div>
+      </form>
+
+      <!--  -->
+
+      <!-- <div>
+        <img src="Image securite/001016042_896x598_c.jpg" alt="" />
+      </div> -->
+      <!-- carosel debut -->
+      <section class="bg-dark text-light text-center py-5">
+        <div class="container">
+          <div class="row">
+            <h1 class="text-uppercase">Les delices interdites</h1>
+            <div class="col pb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              nam quos natus? Odio nihil voluptatum culpa aliquid odit atque
+              maxime, voluptate beatae vitae, fuga repellendus facere saepe,
+              nulla consectetur nisi! Dicta animi vero tempora veritatis ut qui
+              aut voluptas quis mollitia sed distinctio temporibus corrupti unde
+              facilis dolor magni, vel omnis nobis, placeat, quo optio a.
+              Possimus placeat ratione minus? Pariatur modi qui eum asperiores
+              odit beatae accusamus unde voluptatum quo repellendus suscipit ab
+              sed, mollitia reprehenderit, explicabo perferendis iure at!
+              Nostrum vel dicta dignissimos aspernatur modi id dolores deleniti?
+              Esse suscipit consectetur aspernatur placeat laudantium officiis
+              veritatis impedit maiores facere iusto doloribus dicta amet
+              eligendi quasi ab ipsum debitis maxime asperiores, cum aut!
+              Reprehenderit aut sequi provident repellendus nam. Enim voluptas
+              deleniti maiores consequatur tempora perspiciatis nihil
+              repellendus cum aliquam cupiditate, ipsum repellat veniam mollitia
+              reiciendis molestiae temporibus quas impedit earum incidunt,
+              corporis aspernatur facilis veritatis explicabo? Aperiam,
+              quisquam?
+            </div>
+          </div>
+          <!-- carosel debut -->
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="Image securite/001016042_896x598_c.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="Image securite/cybersecurite-attaques.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="Image securite/CreditPhotEcoActuMa.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <img src="" alt="" />
+
+          <!-- carosel fin -->
+        </div>
+      </section>
+      <!-- partie fin -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
+            minus molestias omnis fugit nemo ea ullam cupiditate, aliquam facere
+            odio perspiciatis, consequuntur dolor quia laboriosam at eius.
+            Atque, asperiores vitae. Odit facere tempore porro perspiciatis
+            quasi exercitationem esse impedit, a, architecto iure in. Eveniet
+            saepe harum voluptatem est hic soluta repudiandae dolores quos iure
+            obcaecati itaque autem maiores, quidem nobis! Eaque blanditiis unde
+            repellat iusto est rem corrupti repellendus. Sapiente temporibus
+            nisi laborum animi omnis? Rerum explicabo, enim at voluptas dolorem
+            labore debitis hic error laboriosam saepe magnam? Dolore, sunt?
+            Necessitatibus deleniti error vero quisquam similique laboriosam.
+            Tenetur recusandae maxime modi nemo possimus unde quae soluta, sunt
+            sapiente pariatur, laborum minima explicabo maiores odio vero animi
+            quam! Facilis, reiciendis dolores. Ex, ipsam sint pariatur voluptate
+            non dolor repellat at, cum aliquam eaque ea rem culpa maiores.
+            Voluptate quod harum eum deleniti nemo, aliquam consectetur
+            doloribus? Ipsa, atque? Sapiente, maxime quisquam? Laborum odit et
+            nesciunt tempore recusandae doloribus quasi labore voluptatum
+            molestiae voluptas! Alias ullam officia quod quam dolorum
+            consequuntur asperiores, labore dicta debitis corrupti obcaecati
+            quis voluptatem est cum modi? Consequatur, distinctio mollitia.
+            Corrupti quas sit corporis debitis dicta ratione architecto,
+            repellendus aperiam in eveniet officiis, quasi harum officia tempore
+            itaque facere, id expedita quam amet assumenda eum tenetur?
+            Officiis? Veritatis harum commodi assumenda enim eaque reprehenderit
+            eligendi rerum nisi consectetur beatae nihil architecto laborum
+            asperiores dolores natus unde quam eius nostrum ea cupiditate,
+            debitis hic minus! Sit, nobis quod? Facere vel consequuntur quam
+            deleniti doloribus dolorum ipsum molestias blanditiis ad placeat ut,
+            explicabo a quo beatae praesentium eos nobis neque consequatur,
+            illum est qui nihil fugiat reprehenderit iure! Eligendi. At fuga
+            libero neque voluptatibus vitae, sunt dolor ad ipsam quis maiores,
+            commodi molestias facilis id nam suscipit fugit, ex similique? Rerum
+            temporibus voluptas quas distinctio molestiae tempore omnis officia.
+          </div>
+        </div>
+      </section>
+      <!-- place navbar here -->
+    </header>
+    <main></main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
